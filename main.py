@@ -179,7 +179,7 @@ if arquivo_excel is not None:
                 st.markdown(
                     f"""
                     <div class="card">
-                        <h4>↘️ Latências -</h4>
+                        <h4>↘️ Latências +</h4>
                         <p>{leads_pct:.2f}%</p>
                         <small>Ideal: = 0%</small>
                     </div>
@@ -189,7 +189,7 @@ if arquivo_excel is not None:
                 st.markdown(
                     f"""
                     <div class="card">
-                        <h4>↗️ Latências +</h4>
+                        <h4>↗️ Latências -</h4>
                         <p>{lags_pct:.2f}%</p>
                         <small>Ideal: < 5%</small>
                     </div>
